@@ -11,6 +11,6 @@ main () {
   print(n2.runtimeType);
   print(t1.runtimeType);
 
-  print(n1 is int);
+  //print(n1 is int);
   print(n1 is String);
 }
