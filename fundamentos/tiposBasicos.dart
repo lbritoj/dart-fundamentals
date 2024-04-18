@@ -22,7 +22,7 @@ main() {
   bool estaChovendo = true;
   bool muitoFrio = false;
 
-  print(estaChovendo || muitoFrio); // || significa OU
+  print( muitoFrio || estaChovendo); // || significa OU
   print(estaChovendo && muitoFrio); // && significa E
 
   //O booleano em Dart trabalha APENAS com TRUE e FALSE, não aceita string ou numeros para verdadeiro ou falso.
