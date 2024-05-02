@@ -57,13 +57,17 @@ main () {
 
 // SET
 //Sem amarrar (inferir) um tipo:
+
+/*
 Set times1 = {'Flamengo','Fortaleza' ,'São Paulo'}; 
+*/
+
 
   //Declarando SET com VAR ... irá amarrar um tipo
   var times = {'Flamengo','Fortaleza' ,'São Paulo'};
   //Dessa forma não é possível acessar times[0]
 
-  print(times is Set);
+//  print(times is Set);
 
   times.add('Palmeiras');
   //Ele não aceitará repetições:
